@@ -6,3 +6,5 @@ Programming Languages Used:
 JavaScript
 HTML
 CSS
+Bootstrap
+API
