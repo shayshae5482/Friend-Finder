@@ -23,7 +23,7 @@ function handleRequest(req, res) {
   switch (path) {
 
   case "/home":
-    return fs.readFile(__dirname + "/home.html", function(err, data) {
+    return fs.readFile(__dirname + "home.html", function(err, data) {
       res.writeHead(200, { "Content-Type": "text/html" });
       res.end(data);
     });
