@@ -1,0 +1,29 @@
+{
+  "name": "Friend-Finder",
+  "version": "1.0.0",
+  "description": "A compatibility-based app that will compare users answers to determine their best match.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayshae5482/Friend-Finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shayshae5482/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/shayshae5482/Friend-Finder#readme"
+}
