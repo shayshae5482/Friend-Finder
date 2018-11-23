@@ -1,7 +1,8 @@
 # Friend-Finder
-![image](https://github.com/shayshae5482/Responsive-Portfolio/blob/master/assets/images/friendfinderscreen.png)
 
-A compatibility-based app that will compare users answers to determine their best friend match.  
+A compatibility-based app that will compare users answers to determine their best friend match. 
+![image](https://github.com/shayshae5482/Responsive-Portfolio/blob/master/assets/images/friendfinderscreen.png)
+ 
 
 # Technologies Used:
 * JavaScript
@@ -10,6 +11,7 @@ A compatibility-based app that will compare users answers to determine their bes
 * Bootstrap
 * Materialize
 * Express
+* Body-parser
 * Node.js
 
 # Live Link
