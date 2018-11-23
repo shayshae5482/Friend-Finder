@@ -1,13 +1,18 @@
 # Friend-Finder
+![image](https://github.com/shayshae5482/Responsive-Portfolio/blob/master/assets/images/friendfinderscreen.png)
 
-A compatibility-based app that will compare users answers to determine their best match. 
+A compatibility-based app that will compare users answers to determine their best friend match.  
 
-Programming Languages Used:
-JavaScript,
-HTML,
-CSS,
-Bootstrap,
-Materialize, and
-Express.
+# Technologies Used:
+* JavaScript
+* HTML
+* CSS
+* Bootstrap
+* Materialize
+* Express
+* Node.js
 
-Video Link of the App: https://screencast-o-matic.com/watch/cFQ2iTqKli
+# Live Link
+Click the link below to see who your best friend will be. 
+
+https://friend-finder24.herokuapp.com/
