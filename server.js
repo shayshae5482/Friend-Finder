@@ -22,22 +22,26 @@ function handleRequest(req, res) {
   // When we visit different urls, read and respond with different files
   switch (path) {
 
-  case "/home":
-    return fs.readFile(__dirname + "home.html", function(err, data) {
-      res.writeHead(200, { "Content-Type": "text/html" });
-      res.end(data);
-    });
-
-  case "/survey":
-    return fs.readFile(__dirname + "/survey.html", function(err, data) {
-      res.writeHead(200, { "Content-Type": "text/html" });
-      res.end(data);
-    });
-
+    case"/":
+    case "/home":
+      return fs.readFile(__dirname + "/home.html", function(err, data) {
+        res.writeHead(200, { "Content-Type": "text/html" });
+        res.end(data);
+      });
+    case "/survey":
+      return fs.readFile(__dirname + "/survey.html", function(err, data) {
+        res.writeHead(200, { "Content-Type": "text/html" });
+        res.end(data);
+      });
+  
+    } 
   }
-}
+;
+
+
 
 // Starts our server.
 server.listen(PORT, function() {
-  console.log("Server is listening on PORT: " + PORT);
-});
+  console.log("Server is listening on PORT: " + PORT)}
+);
+
